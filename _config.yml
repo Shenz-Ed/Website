@@ -1,0 +1,68 @@
+url: https://y7kim.github.io
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+# Site settings
+title: ShenzEd
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+
+# Presenter names, titles and social links
+presenters: 
+- title: Pedagogical Possibilities in ICT
+  pic: louise_headshot
+  name: Louise Cullen
+  workshop-date: Dec 17, 2016
+  personalsite:
+  alt: image-alt
+  social:
+    - title: twitter
+      url: http://twitter.com/louise_cullen
+  modal-id: 1
+  description: In this session teachers will explore a variety of easy to use tech tools that will enhance pedagogical practices, and actively engage students in learning. Inspired and informed, participants will be motivated to implement fresh ideas for using Nearpod, Kahoot, Wizer Me, Plickers and Zaption in their own learning environments.
+ 
+Participants should bring a connected device.
+
+- title: Doodling My Way Through the PYP
+  pic: skinneard-headshot
+  name: Stephanie Kinneard
+  workshop-date: Dec 17, 2016
+  personalsite:
+  alt: image-alt
+  social:
+    - title: twitter
+      url: http://twitter.com/misskinneard
+  modal-id: 2
+  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+- title: Coding with Python Across the Subjects
+  pic: AWheeler-headshot
+  name: Andrew Wheeler
+  workshop-date: Dec 17, 2016
+  personalsite: http://www.awheeler.me
+  alt: image-alt
+  social:
+    - title: twitter
+      url: http://twitter.com/and_wheeler
+    - title: linkedin
+      url: https://www.linkedin.com/in/andwheeler
+  modal-id: 3
+  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 
+  - line: Shenzhen, CN
+
+# Build settings
+markdown: kramdown
+permalink: pretty
