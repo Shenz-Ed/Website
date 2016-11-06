@@ -892,3 +892,11 @@ body {
 .icon-text-circle:hover i {
   color: #F9CE06;
 }
+
+.presenter-interest {
+    display:none;
+}
+
+#show-interest:checked ~ .presenter-interest {
+    display:block;
+}
