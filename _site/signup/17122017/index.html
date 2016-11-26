@@ -70,71 +70,72 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="section-heading text-center">Signup</h2>
-                    <h3 class="section-subheading text-center text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                     <script type="text/javascript">var submitted=false;</script>
-                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='../confirmation';}"></iframe>
-                    <form style="margin: 0 auto; width: 40%;" action="https://docs.google.com/forms/d/e/1FAIpQLSe6XCUKmkUV3DfDaBPzQ_7U1NtBHUGI16w5Pwu3ZoFsUYCkow/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-                      <div class="control-group">
-                        <label class="control-label">First Name</label>
-                        <div class="controls">
-                          <input type="text" name="entry.1967602083" id="firstname" value="" class="form-control" placeholder="First Name" required>
-                        </div>
-                      </div>
-                      <div class="control-group">
-                        <label class="control-label">Last Name</label>
-                        <input type="text" name="entry.355874020" id="lastname" value="" class="form-control" placeholder="Last Name" required>
-                      </div>
-                      <div class="control-group">
-                        <label class="control-label">Email address</label>
-                        <div class="controls">
-                          <input class="form-control" type="email" name="entry.2062476005" id="emailaddress" value="" placeholder="Enter email">
-                        </div>
-                      </div>
-                      <div class="control-group">
-                        <label class="control-label">Confirm Email</label>
+                    <div class="holds-the-iframe">
+                      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='../confirmation';}"></iframe>
+                      <form style="margin: 0 auto; width: 50%; background-color:white;" action="https://docs.google.com/forms/d/e/1FAIpQLSe6XCUKmkUV3DfDaBPzQ_7U1NtBHUGI16w5Pwu3ZoFsUYCkow/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                        <div class="control-group">
+                          <label class="control-label">First Name</label>
                           <div class="controls">
-                            <input class="form-control" name="emailAgain" data-validation-matches-match="entry.2062476005" data-validation-matches-message="Must match email address entered above" placeholder="Enter same email as above">
+                            <input type="text" name="entry.1967602083" id="firstname" value="" class="form-control" placeholder="First Name" required>
                           </div>
-                      </div>
-                      <div class="control-group">
-                        <label class="control-label">What school are you from?</label>
-                        <div class="radio">
-                          <label>
-                          <input type="radio" name="entry.1822314868" value="Shen Wai International School">
-                          Shen Wai International School
-                          </label>
                         </div>
-                        <div class="radio">
-                          <label>
-                          <input type="radio" name="entry.1822314868" value="Hogwarts School of Wizardry">
-                          Hogwarts School of Wizardry
-                          </label>
+                        <div class="control-group">
+                          <label class="control-label">Last Name</label>
+                          <input type="text" name="entry.355874020" id="lastname" value="" class="form-control" placeholder="Last Name" required>
                         </div>
-                      </div>
-                      <div class="control-group">
-                        <label class="control-label" style="display:block;">Are you interested in presenting?</label>
-                        <input id="show-interest" type="checkbox" name="entry.1477129575" value="Yes, I am interested in presenting a workshop." style="margin-bottom:20px;">
-                          Yes, I am interested in presenting a workshop.
-                          <div class="presenter-interest" style="border: 1px solid black; border-radius:5px; padding:20px; margin-bottom:20px;">
-                            <label>Excellent! Glad to hear that you are interested in presenting. We would appreciate a little more information regarding what you had in mind.</label>
-                            <div id="12345" class="control-group">
-                              <label class="control-label">What would you title your workshop?</label>
-                              <div class="controls">
-                                <input type="text" name="entry.660724175" value="" class="form-control" placeholder="Workshop Title">
+                        <div class="control-group">
+                          <label class="control-label">Email address</label>
+                          <div class="controls">
+                            <input class="form-control" type="email" name="entry.2062476005" id="emailaddress" value="" placeholder="Enter email">
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <label class="control-label">Confirm Email</label>
+                            <div class="controls">
+                              <input class="form-control" name="emailAgain" data-validation-matches-match="entry.2062476005" data-validation-matches-message="Must match email address entered above" placeholder="Enter same email as above">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                          <label class="control-label">What school are you from?</label>
+                          <div class="radio">
+                            <label>
+                            <input type="radio" name="entry.1822314868" value="Shen Wai International School">
+                            Shen Wai International School
+                            </label>
+                          </div>
+                          <div class="radio">
+                            <label>
+                            <input type="radio" name="entry.1822314868" value="Hogwarts School of Wizardry">
+                            Hogwarts School of Wizardry
+                            </label>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <label class="control-label" style="display:block;">Are you interested in presenting?</label>
+                          <input id="show-interest" type="checkbox" name="entry.1477129575" value="Yes, I am interested in presenting a workshop.">
+                            Yes, I am interested in presenting a workshop.
+                            <div class="presenter-interest" style="border: 1px solid black; border-radius:5px; padding:20px; margin-bottom:20px;">
+                              <label>Excellent! Glad to hear that you are interested in presenting. We would appreciate a little more information regarding what you had in mind.</label>
+                              <div id="12345" class="control-group">
+                                <label class="control-label">What would you title your workshop?</label>
+                                <div class="controls">
+                                  <input type="text" name="entry.660724175" value="" class="form-control" placeholder="Workshop Title">
+                                </div>
+                              </div>
+                              <div id="54321" class="control-group">
+                                <label class="control-label">Write a brief description of what you would present in your workshop.</label>
+                                <div class="controls">
+                                  <textarea name="entry.471956671" value="" class="form-control" rows="5" placeholder="Describe your workshop"></textarea>
+                                </div>
                               </div>
                             </div>
-                            <div id="54321" class="control-group">
-                              <label class="control-label">Write a brief description of what you would present in your workshop.</label>
-                              <div class="controls">
-                                <textarea name="entry.471956671" value="" class="form-control" rows="5" placeholder="Describe your workshop"></textarea>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="form-group">
-                        <button class="btn btn-primary " name="submit" type="submit">Submit</button>
-                      </div>
-                    </form>
+                        </div>
+                        <div class="form-group" style="margin-top:15px;">
+                          <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                        </div>
+                      </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,96 +163,6 @@
             </div>
         </div>
     </footer>
-
-     <!-- Portfolio Modals -->
- 
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Pedagogical Possibilities in ICT</h2>
-                            <hr class="star-primary">
-                            <img src="img/team/louise_headshot.jpg" class="img-responsive img-centered img-circle" alt="image-alt">
-                            <p>In this session teachers will explore a variety of easy to use tech tools that will enhance pedagogical practices, and actively engage students in learning. Inspired and informed, participants will be motivated to implement fresh ideas for using Nearpod, Kahoot, Wizer Me, Plickers and Zaption in their own learning environments. Participants should bring a connected device.</p>
-                            <ul class="list-inline item-details">
-                                <li>Workshop Date:
-                                    <strong>Dec 17, 2016</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Doodling My Way Through the PYP</h2>
-                            <hr class="star-primary">
-                            <img src="img/team/skinneard-headshot.jpg" class="img-responsive img-centered img-circle" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
-                            <ul class="list-inline item-details">
-                                <li>Workshop Date:
-                                    <strong>Dec 17, 2016</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Coding with Python Across the Subjects</h2>
-                            <hr class="star-primary">
-                            <img src="img/team/AWheeler-headshot.jpg" class="img-responsive img-centered img-circle" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.</p>
-                            <ul class="list-inline item-details">
-                                <li>Workshop Date:
-                                    <strong>Dec 17, 2016</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 
 
