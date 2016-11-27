@@ -900,6 +900,3 @@ body {
 #show-interest:checked ~ .presenter-interest {
     display:block;
 }
-.holds-the-iframe {
-    background: no-repeat center/50% url('{{ site.baseurl }}/img/GoogleNotLoadingMessage.jpg');
-}
